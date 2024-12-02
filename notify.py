@@ -9,7 +9,7 @@ def send_sms(to_phone_number, alert_message):
     
     message = client.messages.create(
         body=alert_message,
-        from_='+12512200910',  # Your Twilio phone number
+        from_='+0000000000',  # Your Twilio phone number
         to=to_phone_number
     )
     print(f"Message sent to {to_phone_number} with SID: {message.sid}")
