@@ -3,8 +3,8 @@ import tkinter as tk
 from tkinter import messagebox
 
 def send_sms(to_phone_number, alert_message):
-    account_sid = 'AC6fa0fba49f554f049c1e1dd8f63aad6a'
-    auth_token = '725b1389da538ce250a1a25a9398d160'
+    account_sid = 'sid number'
+    auth_token = 'token'
     client = Client(account_sid, auth_token)
     
     message = client.messages.create(
